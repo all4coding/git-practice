@@ -9,3 +9,8 @@
 
 忘记 美不美 诗日记 不说道理
 
+
+这一节的内容只有一点：用 commit --amend 可以修复当前提交的错误。使用方式：
+
+git commit --amend
+需要注意的有一点：commit --amend 并不是直接修改原 commit 的内容，而是生成一条新的 commit。...
